@@ -1,0 +1,15 @@
+current directory: /Users/danhodgins/Sites/fun1/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+/Users/danhodgins/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20170102-86352-17r5uc8.rb extconf.rb
+creating Makefile
+
+current directory: /Users/danhodgins/Sites/fun1/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/danhodgins/Sites/fun1/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/danhodgins/Sites/fun1/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20170102-86352-iatwvu

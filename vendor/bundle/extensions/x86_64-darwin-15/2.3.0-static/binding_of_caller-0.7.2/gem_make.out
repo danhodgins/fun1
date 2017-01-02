@@ -1,0 +1,16 @@
+current directory: /Users/danhodgins/Sites/fun1/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+/Users/danhodgins/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20170102-86352-qki5r9.rb extconf.rb
+
+current directory: /Users/danhodgins/Sites/fun1/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/danhodgins/Sites/fun1/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/danhodgins/Sites/fun1/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.
