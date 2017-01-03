@@ -1,0 +1,18 @@
+<h1>Subscribe#new</h1>
+<p>Find me in app/views/subscribe/new.html.erb</p>
+
+<%= form_tag subscribe_path(1), :method => :put do %>
+  <article>    
+    <label class=”amount”> 
+      <span>Subscribe to Plan 1: £30.00</span> 
+    </label> 
+  </article>
+<script src=”https://checkout.stripe.com/checkout.js" 
+  class=”stripe-button” data-key=”<%=
+  Rails.configuration.stripe[:publishable_key] %>”
+    data-description=”A month’s subscription” 
+    data-amount=”3000" 
+    data-locale=”auto”>
+  </script> <p>
+<%= link_to ‘Back’, posts_path %></p>
+<% end %>

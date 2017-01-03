@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   
+  get 'subscribe/new'
+
+  resources :subscribe
+
   devise_for :users
   root 'posts#index'
   resources :charges
